@@ -44,6 +44,6 @@ class getLinkedDominByBaidu:
             self.save_result(url)
             time.sleep(5)
 
-runAppli = getLinkedDominByBaidu("yxkfw.com")
+runAppli = getLinkedDominByBaidu("test.com")
 runAppli.work()
 print(runAppli.result)
